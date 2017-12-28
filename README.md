@@ -7,7 +7,7 @@ Dataset : lelivrescolaire dataset (questions/answers for each student)
 Advisor : Julien Seznec (lelivrescolaire).  
 
 ### Building the graph
-[Jupyter notebook file](https://github.com/SharoneDayan/EduDeepGraph/blob/master/Graph%20construction.ipynb)  
+[Jupyter notebook file](https://github.com/SharoneDayan/EduDeepGraph/blob/master/Graph%20construction.ipynb)    
 We have m(~25k) students and n(~15k) questions.  
 Adjacency matrix (W) / Graph : 
 - nodes = questions
@@ -16,6 +16,7 @@ Adjacency matrix (W) / Graph :
 W is a n x n matrix.
 
 ### Graph Convolutional Network (GCN)
+[Jupyter notebook file](https://github.com/SharoneDayan/EduDeepGraph/blob/master/GCN.ipynb)   
 We are using T. Kipf's [paper](http://arxiv.org/abs/1609.02907) and [implementation](https://github.com/tkipf/gcn).  
 Train set : 
 - Adjacency matrix (W, n x n matrix) 
